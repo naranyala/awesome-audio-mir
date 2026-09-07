@@ -14,6 +14,7 @@ The list is intentionally broader than one framework or programming language. It
 - [MIR at a Glance](#mir-at-a-glance)
 - [Audio Programming Foundations](#audio-programming-foundations)
 - [MIR Toolkits](#mir-toolkits)
+- [AI and Neural Audio](#ai-and-neural-audio)
 - [By Language and Environment](#by-language-and-environment)
 - [Symbolic Music](#symbolic-music)
 - [Datasets and Benchmarks](#datasets-and-benchmarks)
@@ -206,6 +207,28 @@ audio or MIDI
 - [Qdrant](https://qdrant.tech/) - Vector database with filtering and payloads for audio search prototypes.
 - [DVC](https://dvc.org/) - Version datasets, features, and model artifacts alongside code.
 - [WebDataset](https://github.com/webdataset/webdataset) - Stream large collections of audio and annotations from sharded archives.
+
+## AI and Neural Audio
+
+These tools support model-based audio and music workflows. Treat code, pretrained weights, training data, and generated outputs as separate artifacts when checking licenses and usage restrictions.
+
+### Model frameworks and recipes
+
+- [Hugging Face Transformers](https://github.com/huggingface/transformers) - Unified Python framework for pretrained and fine-tuned audio, speech, and multimodal models, with training and inference pipelines.
+- [SpeechBrain](https://github.com/speechbrain/speechbrain) - PyTorch toolkit with reproducible recipes and pretrained models for speech recognition, enhancement, separation, speaker recognition, and related tasks; model and dataset terms vary.
+- [ESPnet](https://github.com/espnet/espnet) - End-to-end speech and audio toolkit with reproducible recipes for recognition, synthesis, enhancement, separation, diarization, and singing-voice synthesis.
+- [NVIDIA NeMo Speech](https://github.com/NVIDIA-NeMo/Speech) - PyTorch toolkit for ASR, TTS, speech enhancement, and speech or multimodal language models; training is oriented toward GPU/CUDA environments.
+
+### Understanding, enhancement, and separation
+
+- [Whisper](https://github.com/openai/whisper) - General-purpose multilingual speech recognition, speech translation, language identification, and voice-activity detection for transcription pipelines.
+- [pyannote.audio](https://github.com/pyannote/pyannote-audio) - Python toolkit with pretrained neural pipelines for voice activity detection, speaker embeddings, and speaker diarization; some checkpoints require accepting Hugging Face terms.
+- [DeepFilterNet](https://github.com/Rikorose/DeepFilterNet) - Low-complexity deep-filtering speech enhancement with pretrained models, Rust and Python interfaces, real-time binaries, and LADSPA/PipeWire integration.
+- [AudioSep](https://github.com/Audio-AGI/AudioSep) - Text-guided open-domain sound separation for audio events, musical instruments, and speech enhancement; review checkpoint and dataset terms before redistribution.
+
+### Generative audio
+
+- [Stable Audio Tools](https://github.com/Stability-AI/stable-audio-tools) - Training and inference code for conditional audio generation, including Stable Audio Open checkpoints; review each checkpoint's license and model-card terms separately.
 
 ## By Language and Environment
 
