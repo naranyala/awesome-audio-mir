@@ -449,6 +449,7 @@ Good MIR systems are not defined by a single impressive score. Make the experime
 - Track dataset, code, model, dependency, and hardware versions with tools such as [DVC](https://dvc.org/), [MLflow](https://mlflow.org/), and [Weights & Biases](https://wandb.ai/).
 - Respect consent, copyright, privacy, cultural context, and dataset-specific restrictions.
 - Prefer open implementations and archival releases such as [Zenodo](https://zenodo.org/) when publishing results.
+- [MIDI Known Melody Fixture](https://github.com/luguanhuang/midi-known-melody-fixture) - A 5.85-second MP3-to-MIDI fixture with source audio, expected MIDI, and a Zenodo archive for reproducible single-melody transcription checks.
 
 ## Communities and Events
 
