@@ -225,6 +225,7 @@ These tools support model-based audio and music workflows. Treat code, pretraine
 - [pyannote.audio](https://github.com/pyannote/pyannote-audio) - Python toolkit with pretrained neural pipelines for voice activity detection, speaker embeddings, and speaker diarization; some checkpoints require accepting Hugging Face terms.
 - [DeepFilterNet](https://github.com/Rikorose/DeepFilterNet) - Low-complexity deep-filtering speech enhancement with pretrained models, Rust and Python interfaces, real-time binaries, and LADSPA/PipeWire integration.
 - [AudioSep](https://github.com/Audio-AGI/AudioSep) - Text-guided open-domain sound separation for audio events, musical instruments, and speech enhancement; review checkpoint and dataset terms before redistribution.
+- [QuietTake Noise Remover](https://noiseremover.site/) - Browser/WASM RNNoise speech noise reduction with original/cleaned playback and 48 kHz 16-bit WAV export; free without signup or audio upload, limited to 50 MB and five minutes per file; website source is private.
 
 ### Generative audio
 
